@@ -37,7 +37,7 @@ btnRoll.addEventListener('click', function () {
     console.log(rollDice);
 
     diceE.classList.remove('hidden');
-    diceE.src = `dice-${rollDice}.png`;
+    diceE.src = `Images/dice-${rollDice}.png`;
 
     if (rollDice !== 1) {
       currentScore = currentScore + rollDice;
