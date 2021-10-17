@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(81, 151, 81);
+}
+.show-modal {
+  font-size: 18px;
+  font-weight: 600;
+  width: 170px;
+  height: 50px;
+  border-radius: 6em;
+  border: none;
+  margin-left: 8em;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  transform: (-50%, -50%);
+  width: 50%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 6px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.close-modal {
+  float: right;
+  background-color: red;
+}
+
+.overly {
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+}
